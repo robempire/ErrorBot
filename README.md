@@ -10,14 +10,20 @@ Basic Usage:
 > empty_list = []
 > >
 > for i in range(1,5):     
->    print (f'Pass #{i}') 
->    try:
->        make_error = empty_list[1]
->    except:
->        bot.check(3)
+> 
+>    >print (f'Pass #{i}') 
+>    
+>    >try:<br>
+>    >>make_error = empty_list[1]<br/>
+>    
+>    >except:<br/>
+>    >>bot.check(3)
+
 
 > [Out]: Pass #1
+> 
 > [Out]: Pass #2
+> 
 > [Out]: Pass #3
 >
 >[Out]: ERRORBOT: That's 3 errors since ERRORBOT was created ... Continue? (y/n) 
@@ -26,11 +32,11 @@ Basic Usage:
 > 
 > [Out]: Pass #4
 
-
+<br/><br/>
 ErrorBot also supports several additional arguments for controlling the post-threshold behavior.
-
+<br/><br/>
 Supported arguments:
-    
+<br/><br/>
 kill=True:
 > Exits program without prompting
 >    
