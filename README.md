@@ -6,7 +6,9 @@ A one-line error counter with multiple response options.
 Basic Usage:
     
 > bot = ErrorBot()
+> >
 > empty_list = []
+> >
 > for i in range(1,5):     
 >    print (f'Pass #{i}') 
 >    try:
