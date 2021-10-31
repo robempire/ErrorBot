@@ -1,5 +1,5 @@
 # ErrorBot
-## A one-line error counter with multiple response options.
+## A simple one-line error counter with multiple response options.
 
 
 
