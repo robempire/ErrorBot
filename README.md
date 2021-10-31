@@ -5,6 +5,8 @@
 
 Basic Usage:
 ```py
+from errorbot import ErrorBot
+
 bot = ErrorBot()
 
 empty_list = []
