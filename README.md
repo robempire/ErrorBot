@@ -16,7 +16,7 @@ for i in range(1,5):
     print (f'Pass #{i}') 
 
     try:
-        make_error = empty_list[1]<br/>
+        make_error = empty_list[1]
 
     except:
         bot.check(3)
